@@ -11,4 +11,3 @@ console.log(pet.age);
 pet.age = 6;
 console.log(pet.age);
 
-// TODO: What do you think each console.log will print? Will print pet name, per species, and age
