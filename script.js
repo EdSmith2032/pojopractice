@@ -90,8 +90,70 @@ const car = {
 // TODO: Explain what was wrong in a comment.
 console.log(car);
 
+//------------------------------------------------------------------------------------------------
+
+//lesson 4-4
+
+//exercise 1
+const bookC = {
+    "title": "Eddie's Book",
+    "author": "Eddie Smith",
+    "pages": 750,
+    "isPublished": true 
+};
+
+console.log(bookC.title);
+console.log(bookC.author);
+bookC.pages = 850;
+console.log(bookC);
+
+// TODO: Create your custom book POJO here
+// TODO: Print title and author
+// TODO: Update pages
+// TODO: Print all properties
+
+//---------------------------------------------------------------------------------------------------
+
+//exercise 2
+const petC = {
+    "name": "Iggy",
+    "species": "Dog",
+    "age": 9
+};
+
+console.log(petC.species);
+petC.age = 10;
+console.log(petC.name);
+console.log(petC.age);
+
+// TODO: Create your custom pet POJO here
+// TODO: Print species
+// TODO: Update age
+// TODO: Print name and updated age
 
 
+
+//---------------------------------------------------------------------------------------------------
+//exercise 3
+const spriteC = {
+    "name": "Joe",
+    "x": 100,
+    "y": 200
+};
+
+console.log(spriteC.x);
+console.log(spriteC.y);
+spriteC.x = 200;
+spriteC.y = 300;
+console.log(spriteC.x);
+console.log(spriteC.y);
+
+
+
+// TODO: Create your custom sprite POJO here
+// TODO: Print current position
+// TODO: Update x and y
+// TODO: Print new position
 
 
 
