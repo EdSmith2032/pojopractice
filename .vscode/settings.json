@@ -1,6 +1,5 @@
 {
     "workbench.colorTheme": "Abyss",
-    "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
     "files.autoSave": "afterDelay",
